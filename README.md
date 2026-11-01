@@ -16,7 +16,6 @@ A skill for Claude that makes it work carefully on files, code, and study notes 
 |---|---|---|
 | project-workbench | `SKILL.md` | Careful hands-on work on attached files, code, and study notes |
 | token-optimizer | `token-optimizer/SKILL.md` | Lean, low-token workflow for long sessions, large files, and repeated tasks, without losing correctness |
-
 | token-usage | `token-usage/SKILL.md` | Reports real token counts for the current session from its transcript (on demand) |
 
 Also included: `plugins/token-meter`, a Claude Code plugin (not a skill) that shows a live token pane. Run it with `claude --plugin-dir plugins/token-meter`.
