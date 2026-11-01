@@ -1,0 +1,1 @@
+{ "name": "token-meter", "version": "0.1.0", "description": "Live token, context, cost and rate-limit meter in a pane beside the chat", "types": "./types/index.d.ts" }
