@@ -24,7 +24,16 @@ A skill for Claude that makes it work carefully on files, code, and study notes 
 - Leads with the answer and delivers long content as files
 - Keeps a short running state in long sessions
 
-## Install
+## Download
+
+Ready-to-upload zip files (each contains a correctly named skill folder):
+
+- [`dist/project-workbench.zip`](dist/project-workbench.zip)
+- [`dist/token-optimizer.zip`](dist/token-optimizer.zip)
+
+Upload a zip in Claude's Settings under Skills.
+
+## Install manually
 
 1. Download the skill's `SKILL.md` (`SKILL.md` for project-workbench, `token-optimizer/SKILL.md` for token-optimizer).
 2. Put it in a folder named after the skill (`project-workbench` or `token-optimizer`).
