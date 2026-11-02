@@ -17,6 +17,7 @@ A skill for Claude that makes it work carefully on files, code, and study notes 
 | project-workbench | `SKILL.md` | Careful hands-on work on attached files, code, and study notes |
 | token-optimizer | `token-optimizer/SKILL.md` | Lean, low-token workflow for long sessions, large files, and repeated tasks, without losing correctness |
 | token-usage | `token-usage/SKILL.md` | Reports real token counts for the current session from its transcript (on demand) |
+| token-estimate | `token-estimate/SKILL.md` | Labelled token estimates when no transcript exists, such as claude.ai chat |
 
 Also included: `plugins/token-meter`, a Claude Code plugin (not a skill) that shows a live token pane. Run it with `claude --plugin-dir plugins/token-meter`.
 
@@ -34,6 +35,7 @@ Ready-to-upload zip files (each contains a correctly named skill folder):
 - [`dist/project-workbench.zip`](dist/project-workbench.zip)
 - [`dist/token-optimizer.zip`](dist/token-optimizer.zip)
 - [`dist/token-usage.zip`](dist/token-usage.zip)
+- [`dist/token-estimate.zip`](dist/token-estimate.zip)
 - [`dist/token-meter.zip`](dist/token-meter.zip) (Claude Code plugin, not for the Skills upload)
 
 Upload a zip in Claude's Settings under Skills.
